@@ -1,0 +1,89 @@
+/*selector {
+property: value;
+}*/
+/*
+element {
+
+}
+.class {
+
+}
+#id {
+
+}
+
+Heirarchy goes..
+		ID
+	 C L A S S (and attribute selectors for that matter)
+E  L  E  M  E  N  T
+
+If the selectors are equal selector types, 
+like HTML and body, then whatever was written/chosen last in
+the code will override.
+*/
+
+
+body {
+	background: #0e0504;
+}
+div { 
+	background: #ebc8b2;
+}
+h1 {
+	color: 	#0e0504;
+	font-size: 70px;
+	text-align: center;
+	font-family: georgia;
+	}
+em { 
+	font-size: 16px;
+	text-align: right;
+ }
+#statement {
+	background: #0e0504;
+	color: #ebc8b2;
+	font-family: georgia;
+	font-size: 20pt;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#businesses {
+	background: #90746c;
+	font-family: georgia;
+	text-align: center;
+}
+h2 {
+	color: 	#0e0504;
+	text-align: center;
+	font-size: 60px;
+	}
+
+h3 {
+	color: #0e0504;
+	text-decoration: underline;
+	font-size: 45px;
+	}
+
+li {
+	color: #ebc8b2;
+	font-size: 40px;
+	margin-right: 70px;
+	}
+
+ul { 
+	text-align: center;
+	list-style-position: inside;
+	}
+
+
+p {
+	color: #0E0504;
+	}
